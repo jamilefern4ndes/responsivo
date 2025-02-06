@@ -25,6 +25,7 @@ menu{
     display: none;
 }
 menu a {
+    display: block;
     background-color: #260101;
     text-transform: uppercase;
     font-size: 1.8vh;
@@ -51,7 +52,7 @@ main{
     margin: auto;
     padding: 10px;
     border-radius: 10px;
-    max-width: 600px;
+    max-width: 70vw;
 }
 main > h2{
     text-align: center;
