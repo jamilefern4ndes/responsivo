@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@media screen and (min-width:577px){
+    menu{
+        padding: 2px;
+    }
+    menu a {
+        background-color: #260101;
+        text-transform: uppercase;
+        font-size: 1.8vh;
+        color: #F2DCC2;
+        padding: 2px 4px;
+        text-decoration: none;
+    }
+    menu a:hover{
+        background-color: #401801;
+    }
+}

@@ -20,7 +20,9 @@ header>h1{
     text-shadow: 2px 1px 3px black;
 }
 menu{
+    text-align: center;
     padding: 2px;
+    display: none;
 }
 menu a {
     background-color: #260101;
@@ -28,11 +30,20 @@ menu a {
     font-size: 1.8vh;
     color: #F2DCC2;
     padding: 2px 4px;
-    margin-right: 4px;
     text-decoration: none;
 }
 menu a:hover{
     background-color: #401801;
+}
+#menu{
+    background-color: #260101;
+    color: #BFA380;
+    display: block;
+    text-align: center;
+}
+#menu:hover{
+    color: #8C694A;
+    cursor: context-menu;
 }
 main{
     background-color: #BFA380;
