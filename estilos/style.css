@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/*configrações gerais*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #8C694A;
+}
+header{
+    font-family: helvetica;
+    background-color: #401801;
+}
+header>h1{
+    text-align: center;
+    padding: 5vh;
+    color: #F2DCC2;
+    text-shadow: 2px 1px 3px black;
+}
+menu{
+    padding: 2px;
+}
+menu a {
+    background-color: #260101;
+    text-transform: uppercase;
+    font-size: 1.8vh;
+    color: #F2DCC2;
+    padding: 2px 4px;
+    margin-right: 4px;
+    text-decoration: none;
+}
+menu a:hover{
+    background-color: #401801;
+}
+main{
+    background-color: #BFA380;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 600px;
+}
+main > h2{
+    text-align: center;
+    margin: 15px;
+}
+main p {
+    text-align: justify;
+    margin-bottom: 7px;
+}
